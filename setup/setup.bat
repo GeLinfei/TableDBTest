@@ -1,6 +1,6 @@
 @echo off
 ::cd /d d:/code/npl/TableDB/setup
-cd C:\Users\linfe\TableDB\setup
+cd C:\Users\linfe\TableDBTest\setup
 set curdir=%~dp0
 if "%1" == "dummy" goto setupDummy
 if "%1" == "client" goto setupClient

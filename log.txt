@@ -1,17 +1,17 @@
 NPL bin dir: C:\Users\linfe\ParaCraftSDK\NPLRuntime\win\bin\
 no packages at: C:\Users\linfe\ParaCraftSDK\NPLRuntime\win\packages
 ParaEngine.sig file not found
-WorkingDir: C:\Users\linfe\TableDB
+WorkingDir: C:\Users\linfe\TableDBTest
 OS information:
 OS version:Microsoft  (build 9200), 64-bit
 Number of processors:4
 Processor type:586
 TotalPhysicalMemory:8268900
-FreePhysicalMemory:2782000
+FreePhysicalMemory:4299128
 
-ParaEngine Root Dir is C:/Users/linfe/TableDB/
+ParaEngine Root Dir is C:/Users/linfe/TableDBTest/
 search path: npl_packages/main/
-./packages dir: C:/Users/linfe/TableDB/
+./packages dir: C:/Users/linfe/TableDBTest/
 main loop: script/apps/WebServer/WebServer.lua 
 CAssetManifest loaded 0 files
 CAsyncLoader is started with 1 IO thread and 2 worker thread
@@ -21,12 +21,12 @@ LoadLibrary (PhysicsBT.dll) failed with error 87: 参数错误。
 Failed loading plug-in: PhysicsBT.dll
 note: no physics engine found, null physics is used 
 Default window thread started. and a window is created in it
-Window is native: 3d window: b1184, top level: b1184
-DEBUG: main thread wnd handle : 725380
+Window is native: 3d window: 20b8c, top level: 20b8c
+DEBUG: main thread wnd handle : 134028
 update d3d window size: width: 1020, height:680, left:89, top:26
 Best full screen mode is (1280, 720)
 warning: script file script/config.lua not found
-Window is native: 3d window: b1184, top level: b1184
+Window is native: 3d window: 20b8c, top level: 20b8c
 Absolute path is used for dll: cAudioEngine.dll
 LoadLibrary (cAudioEngine.dll) failed with error 87: 参数错误。
 
@@ -40,15 +40,15 @@ VS:3 PS:3
 ParaEngine LuaJIT 32bits version:LuaJIT 2.0.3
 Jit status:true, CMOV, SSE2, SSE3, SSE4.1, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
 ffi loaded shared lib: ParaEngineClient
-2017-07-07 3:36:47|main|info|WebServer|web root directory is changed to : script/apps/WebServer/admin
-2017-07-07 3:36:47|main|system|WebServer|config file script/apps/WebServer/admin/webserver.config.xml
-2017-07-07 3:36:47|main|system|WebServer|rule id=npl_code_wiki is loaded with 3 rules
-2017-07-07 3:36:47|main|system|WebServer|rule id=simple_rule is loaded with 8 rules
-2017-07-07 3:36:47|main|system|NPL|NPL input queue size is changed to 20000
-2017-07-07 3:36:47|main|info|Log|log level is set to debug
+2017-07-10 4:43:27|main|info|WebServer|web root directory is changed to : script/apps/WebServer/admin
+2017-07-10 4:43:27|main|system|WebServer|config file script/apps/WebServer/admin/webserver.config.xml
+2017-07-10 4:43:27|main|system|WebServer|rule id=npl_code_wiki is loaded with 3 rules
+2017-07-10 4:43:27|main|system|WebServer|rule id=simple_rule is loaded with 8 rules
+2017-07-10 4:43:27|main|system|NPL|NPL input queue size is changed to 20000
+2017-07-10 4:43:27|main|info|Log|log level is set to debug
 FileSystemWatcher: default created
-FileSystemWatcher default begins monitoring all files in C:/Users/linfe/TableDB/script/apps/WebServer/admin/
-2017-07-07 3:36:47|main|system|WebServer|NPL Web Server is started. 
+FileSystemWatcher default begins monitoring all files in C:/Users/linfe/TableDBTest/script/apps/WebServer/admin/
+2017-07-10 4:43:27|main|system|WebServer|NPL Web Server is started. 
 NPL server 0.1 is listening on 0.0.0.0:8099
 TCPKeepAlive: true
 AppKeepAlive: false
@@ -58,76 +58,58 @@ UseCompression(incoming): false
 CompressionLevel: -1
 CompressionThreshold: 204800
 NPL max pending incoming connections allowed is 1000
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/index.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-main.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-load.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-config.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-settings.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/load.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/default-constants.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/version.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/functions.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/class-wp-error.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/plugin.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/wp-db.page
-2017-07-07 3:36:47|main|info|XmlDatabase|load xml database: script/apps/WebServer/admin/wp-content/database/
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/class-wp-user.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/formatting.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/query.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/cache.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/option.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/class-wp-walker.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/class-wp-theme.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/theme.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/template.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/user.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/session.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/meta.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/general-template.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/link-template.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/nav-menu.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/nav-menu-template.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/taxonomy.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/http.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/default-filters.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/pluggable.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/functions.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/nav-menu-walker.class.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/template-loader.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/index.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/header.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/pages/index.page
-2017-07-07 3:36:47|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/footer.page
-2017-07-07 3:36:51|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/page.page
-2017-07-07 3:36:51|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/pages/db_manager.page
-2017-07-07 3:36:51|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-admin/admin-ajax.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/index.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-main.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-load.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-config.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-settings.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/load.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/default-constants.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/version.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/functions.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/class-wp-error.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/plugin.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/wp-db.page
+2017-07-10 4:43:27|main|info|XmlDatabase|load xml database: script/apps/WebServer/admin/wp-content/database/
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/class-wp-user.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/formatting.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/query.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/cache.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/option.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/class-wp-walker.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/class-wp-theme.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/theme.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/template.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/user.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/session.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/meta.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/general-template.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/link-template.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/nav-menu.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/nav-menu-template.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/taxonomy.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/http.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/default-filters.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/pluggable.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/functions.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/nav-menu-walker.class.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-includes/template-loader.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/index.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/header.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/pages/index.page
+2017-07-10 4:43:27|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/footer.page
+2017-07-10 4:43:27|main|info|npl_file_handler|npl file handler thread(wfh) is started
 ParaEngine LuaJIT 32bits version:LuaJIT 2.0.3
 Jit status:true, CMOV, SSE2, SSE3, SSE4.1, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
 ffi loaded shared lib: ParaEngineClient
-2017-07-07 3:36:52|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
-2017-07-07 3:36:52|tdb|info|TableDatabase|table database: setup\server1/ is opened.
-database:setup\server1/.db opened
-2017-07-07 3:36:52|tdb|debug|SqliteStore|db: setup\server1/.db PRAGMA journal_mode WAL
-2017-07-07 3:36:52|tdb|info|SqliteStore|collection  opened
-2017-07-07 3:37:32|tdb|info|TableDatabase|table database: setup\server1\temp\test_raft_database/ is opened.
+2017-07-10 4:43:34|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/themes/sensitive/page.page
+2017-07-10 4:43:34|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-content/pages/db_manager.page
+2017-07-10 4:43:34|main|info|npl_page_parser|parse file: script/apps/WebServer/admin/wp-admin/admin-ajax.page
+ParaEngine LuaJIT 32bits version:LuaJIT 2.0.3
+Jit status:true, CMOV, SSE2, SSE3, SSE4.1, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: ParaEngineClient
+2017-07-10 4:43:35|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-07-10 4:43:35|tdb|info|TableDatabase|table database: setup\server1\temp\test_raft_database/ is opened.
 database:setup\server1\temp\test_raft_database/User.db opened
-2017-07-07 3:37:32|tdb|debug|SqliteStore|db: setup\server1\temp\test_raft_database/User.db PRAGMA journal_mode WAL
-2017-07-07 3:37:32|tdb|info|SqliteStore|collection User opened
-error: CNPLNetServer unable to accept incoming connection, because: 由于线程退出或应用程序请求，已中止 I/O 操作。
-current connections 0
-NPL State tdb exited
-Default window thread exit
-sql db closed: setup\server1\temp\test_raft_database/User.db
-sql db closed: setup\server1/.db
-		NPL thread local memory allocator released 1376256 bytes
-NPL State main exited
-		NPL thread local memory allocator released 2686976 bytes
-CAsyncLoader worker thread 0 of 6 is exited
-CAsyncLoader worker thread 1 of 6 is exited
-CAsyncLoader worker thread 2 of 6 is exited
-CAsyncLoader worker thread 3 of 6 is exited
-CAsyncLoader worker thread 4 of 6 is exited
-CAsyncLoader worker thread 5 of 6 is exited
-CAsyncLoader IO thread is exited
-warning: in ParaEngine::CFileSystemWatcher::FileHandler. msg is 由于线程退出或应用程序请求，已中止 I/O 操作。
-FileSystemWatcher removed
+2017-07-10 4:43:35|tdb|debug|SqliteStore|db: setup\server1\temp\test_raft_database/User.db PRAGMA journal_mode WAL
+2017-07-10 4:43:35|tdb|info|SqliteStore|collection User opened
